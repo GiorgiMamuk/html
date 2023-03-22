@@ -1,0 +1,38 @@
+#todo-list {
+    list-style: none;
+    padding-left: 0;
+}
+.todo-item {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.todo-item label {
+    margin-right: 10px;
+}
+.todo-item input[type="text"] {
+    width: 300px;
+}
+.btn-delete {
+    background-color: #ff6961;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-delete:hover {
+    background-color: #ff4136;
+}
+.btn-done {
+    background-color: #2ecc40;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-done:hover {
+    background-color: #27ae60;
+}
